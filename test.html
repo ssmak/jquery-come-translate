@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test Page for jQuery Plugin - jquery-come-translate</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- JQuery extension `Come Translate` -->
+    <script src="languages.pack.js"></script>
+    <script src="jquery-come-translate.js"></script>
+    <script>
+        $(function () {
+
+            //translate whole page content and invoke the callback on completed
+            $.translate(completed_callback, {debug: true, translation: dict, language: 'zhTW', tag: 'my-data'});
+
+            $('#language').change(function () {
+
+            $.translate(completed_callback, {debug: true, translation: dict, language: $('#language').val(), tag: 'my-data'});
+            });
+        });
+
+        /*
+        function call when translate completed
+         */
+        function completed_callback() {
+
+            console.log('translate completed!!');
+        }
+    </script>
+ <body>
+ <div>
+     <select id="language">
+         <option value="zhTW">繁體中文</option>
+         <option value="enUS">English</option>
+         <option value="zhCN">简体中文</option>
+     </select>
+ </div>
+ <div><my-data id="apple"></my-data></div>
+ <div><my-data id="orange"></my-data></div>
+ <div><my-data id="banana"></my-data></div>
+ <div><my-data id="pear"></my-data></div>
+ <div><my-data id="tc"></my-data></div>
+ <div><my-data id="en"></my-data></div>
+ <div><my-data id="sc"></my-data></div>
+ </body>
+</html>
