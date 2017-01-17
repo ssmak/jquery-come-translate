@@ -59,7 +59,14 @@
 
                 if(typeof translation[dataid][language] == 'string') {
 
-                    $(this).html(translation[dataid][language]);
+                    //check translation type
+                    if($(this).is("img")) {
+                      //image translate
+                      $(this).attr("src", translation[dataid][language]);
+                    } else {
+                      //text translate
+                      $(this).html(translation[dataid][language]);
+                    }
                 } else {
 
                     if(debug) {
