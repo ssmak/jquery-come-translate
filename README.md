@@ -10,9 +10,9 @@ Usage:
 <script src="js/jquery-come-translate.min.js"></script>
 <script>
 $(function () {
- 
-    $.translate(function() {}, {debug: true, translation: dict, language: 'zhTW', tag: 'my-data'});
-    //$.translate(function() {}, {debug: true, translation: dict, language: $.language('enUS'), tag: 'my-data'});
+
+    $.translate(function() {}, {debug: true, translation: dict, language: 'zhTW', attribute: 'my-data'});
+    //$.translate(function() {}, {debug: true, translation: dict, language: $.language('enUS'), attribute: 'my-data'});
 });
 </script>
 <body>
