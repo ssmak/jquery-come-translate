@@ -1,0 +1,19 @@
+{
+  "name": "jquery-come-translate",
+  "version": "1.0.0",
+  "description": "jQuery plugin for translation (manually define difference translations).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmak/jquery-come-translate.git"
+  },
+  "author": "Steve Mak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssmak/jquery-come-translate/issues"
+  },
+  "homepage": "https://github.com/ssmak/jquery-come-translate#readme"
+}
