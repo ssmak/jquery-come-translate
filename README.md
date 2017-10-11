@@ -7,7 +7,7 @@ Usage:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- JQuery extension `Come Translate` -->
 <script src="js/languages.pack.js"></script>
-<script src="js/jquery-come-translate.min.js"></script>
+<script src="dist/js/jquery-come-translate.js"></script>
 <script>
 $(function () {
 
