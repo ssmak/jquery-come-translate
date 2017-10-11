@@ -4,7 +4,7 @@ jQuery plugin for translation (manually define difference translations).
 Usage:
 ```javascript
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- JQuery extension `Come Translate` -->
 <script src="js/languages.pack.js"></script>
 <script src="js/jquery-come-translate.min.js"></script>
