@@ -17,7 +17,7 @@
 <br />
 
 ## History
-One way solution to convert text between Traditional Chinese and Simplified Chinese in browser. No any dependencies required.
+One way solution to convert text between multiple languages in browser. No any dependencies required.
 <br />
 <div align="center">
   <a href="https://paypal.me/ssmak">
