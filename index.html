@@ -22,7 +22,7 @@
  <div my-data="tc"></div>
  <div my-data="en"></div>
  <div my-data="sc"></div>
- <img my-data="profile" src="images/test.jpg" />
+ <img my-data="profile" src="" />
  </body>
  <!-- jQuery -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -32,11 +32,21 @@
  <script>
    $(function () {
      //translate whole page content and invoke the callback on completed
-     $.translate(completed_callback, {debug: true, translation: dict, language: 'zhTW', attribute: 'my-data'});
+     $.translate(completed_callback, {
+       debug: true,
+       translation: dict,
+       language: 'zhTW',
+       tag: 'my-data'
+     });
 
      $('#language').change(function () {
 
-       $.translate(completed_callback, {debug: true, translation: dict, language: $('#language').val(), attribute: 'my-data'});
+       $.translate(completed_callback, {
+         debug: true,
+         translation: dict,
+         language: $('#language').val(),
+         tag: 'my-data'
+       });
      });
    });
 

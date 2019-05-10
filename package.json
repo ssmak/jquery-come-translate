@@ -11,6 +11,12 @@
     "url": "git+https://github.com/ssmak/jquery-come-translate.git"
   },
   "author": "Steve Mak",
+  "keywords": [
+    "jquery",
+    "jquery plugin",
+    "translation",
+    "i18n"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ssmak/jquery-come-translate/issues"

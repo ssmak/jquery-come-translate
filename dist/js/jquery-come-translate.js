@@ -1,4 +1,4 @@
-/*!
+/**
  * jquery-come-translate v1.0.0 (https://github.com/ssmak/jquery-come-translate)
  * Author: Steve Mak (https://github.com/ssmak)
  * Licensed under the MIT license
